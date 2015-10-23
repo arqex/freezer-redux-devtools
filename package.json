@@ -1,0 +1,19 @@
+{
+  "name": "freezer-redux-devtools",
+  "version": "1.0.0",
+  "description": "A bind to use redux-devtools in a freezer-js app.",
+  "main": "freezer-redux-devtools.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Flux",
+    "Freezer",
+    "Immutable",
+    "Redux",
+    "Devtools"
+  ],
+  "author": "Javier Marquez <javi@arqex.com>",
+  "license": "MIT"
+}
