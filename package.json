@@ -7,12 +7,12 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [
-	"React",
-	"Flux",
-	"Freezer",
-	"Immutable",
-	"Redux",
-	"Devtools"
+		"React",
+		"Flux",
+		"Freezer",
+		"Immutable",
+		"Redux",
+		"Devtools"
 	],
 	"dependencies": {
 		 "redux-devtools": "^2.1.5"
