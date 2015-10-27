@@ -1,5 +1,5 @@
-import { createStore, compose } from 'redux';
-import { devTools, persistState } from 'redux-devtools';
+var Redux = require('redux');
+var DevTools = require('redux-devtools');
 
 var ActionTypes = {
 	INIT: '@@INIT',
@@ -82,11 +82,11 @@ function FreezerMiddleware( State ){
  * @return {ReduxStore}      A store to be used by the DevTools component.
  */
 function getStore( State, persist ){
-	var store = compose(
+	var store = Redux.compose(
 		FreezerMiddleware( State ),
-		devTools(),
-		persistState( persist || window.location.href.match(/[?&]debug_session=([^&]+)\b/) )
-	)(createStore)( function( state ){ return state } );
+		DevTools.devTools(),
+		DevTools.persistState( persist || window.location.href.match(/[?&]debug_session=([^&]+)\b/) )
+	)(Redux.createStore)( function( state ){ return state } );
 
 	return store;
 }

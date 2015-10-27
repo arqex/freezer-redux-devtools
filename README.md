@@ -2,11 +2,9 @@
 
 A bind to use [redux-devtools](https://github.com/gaearon/redux-devtools) in [freezer-js](https://github.com/arqex/freezer) apps.
 
-Dan Abramov's redux is a really clever piece of software, but I love the simplicity of freezer-js to create flux apps. Redux has the best tools for developers and freezer-js has nothing similar. Fortunatelly both solutions relies in having all the app state in a single object, so make redux-devtools working with freezer instead of redux is not difficult.
+Dan Abramov's [redux](https://github.com/rackt/redux) is a really clever piece of software, but I love the simplicity of freezer-js to create flux apps. Redux has the best tools for developers and freezer-js has nothing similar. Fortunatelly both solutions relies in having all the app state in a single object, so make redux-devtools working with freezer instead of redux is not difficult.
 
 This package creates a redux store that communicates redux-devtools and freezer-js.
-
-
 
 ## Installation
 Go to your project root and...
