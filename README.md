@@ -19,6 +19,7 @@ See the [freezer-redux-devtools example](https://github.com/arqex/freezer-redux-
 import { DevTools, DebugPanel, LogMonitor } from 'redux-devtools/lib/react';
 import React, { Component } from 'react';
 import { getStore } from './freezer-redux-devtools/freezer-redux-devtools';
+import Freezer from 'freezer-js';
 
 // Our state is a freezer object
 var State = new Freezer({hello: 'world'});
