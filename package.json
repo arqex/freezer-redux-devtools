@@ -1,6 +1,6 @@
 {
 	"name": "freezer-redux-devtools",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "A bind to use redux-devtools in freezer-js apps.",
 	"main": "freezer-redux-devtools.js",
 	"scripts": {
@@ -14,9 +14,6 @@
 		"Redux",
 		"Devtools"
 	],
-	"dependencies": {
-		 "redux-devtools": "^2.1.5"
-	},
 	"author": "Javier Marquez <javi@arqex.com>",
 	"license": "MIT"
 }
