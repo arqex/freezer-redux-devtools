@@ -53,7 +53,6 @@ export default class App extends Component {
 ### Using redux-devtools chrome extension
 This way you don't need to install redux, or redux-devtools in your project. You need to have [redux-devtools chrome extension](https://github.com/zalmoxisus/redux-devtools-extension) instead.
 ```js
-import { DevTools, DebugPanel, LogMonitor } from 'redux-devtools/lib/react';
 import React, { Component } from 'react';
 import { supportChromeExtension } from 'freezer-redux-devtools/freezer-redux-middleware';
 import Freezer from 'freezer-js';
