@@ -1,5 +1,3 @@
-var Redux = require('redux');
-
 var ActionTypes = {
 	INIT: '@@INIT',
 	PERFORM_ACTION: 'PERFORM_ACTION',
