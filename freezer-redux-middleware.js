@@ -93,7 +93,7 @@ function supportChromeExtension( State ){
 
 	compose(
 		FreezerMiddleware( State ),
-		window.devToolsExtension || function(f){ return f }
+		(window.devToolsExtension || function(f){ return f })()
 	)(createStore)( function( state ){
 		return state;
 	});
